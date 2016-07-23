@@ -1612,8 +1612,8 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1635,9 +1635,7 @@
 					"libsodium-osx/include/",
 				);
 				INFOPLIST_FILE = "ShadowsocksX/ShadowsocksX-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/libsodium-osx/lib",
-				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/libsodium-osx/lib";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_BUNDLE_IDENTIFIER = "clowwindy.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1654,8 +1652,8 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1675,9 +1673,7 @@
 					"libsodium-osx/include/",
 				);
 				INFOPLIST_FILE = "ShadowsocksX/ShadowsocksX-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/libsodium-osx/lib",
-				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/libsodium-osx/lib";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_BUNDLE_IDENTIFIER = "clowwindy.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
