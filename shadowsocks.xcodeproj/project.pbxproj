@@ -1060,7 +1060,7 @@
 			attributes = {
 				CLASSPREFIX = SWB;
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = clowwindy;
+				ORGANIZATIONNAME = "Tommy Lau";
 			};
 			buildConfigurationList = 621571A016CF6BCA003D96B4 /* Build configuration list for PBXProject "shadowsocks" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1637,7 +1637,7 @@
 				INFOPLIST_FILE = "ShadowsocksX/ShadowsocksX-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/libsodium-osx/lib";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_BUNDLE_IDENTIFIER = "clowwindy.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.net.tommy.ShadowsocksX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -1675,7 +1675,7 @@
 				INFOPLIST_FILE = "ShadowsocksX/ShadowsocksX-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/libsodium-osx/lib";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_BUNDLE_IDENTIFIER = "clowwindy.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.net.tommy.ShadowsocksX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;

@@ -1,4 +1,4 @@
-prefix=/Users/tommy/Downloads/libsodium-1.0.10/libsodium-osx
+prefix=libsodium-osx
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
